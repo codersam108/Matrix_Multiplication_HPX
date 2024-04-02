@@ -12,7 +12,7 @@ int hpx_main(int argc, char** argv) {
     hpx::cout<<"Matrix A:"<<hpx::endl;  // Printing value of Matrix A
     for( int i = 0 ; i< 3; i++) {
         for (int j = 0;  j<2; j++) {
-            hpx::cout<<matA[i][j]<<"\t";  // \t used for tab
+            hpx::cout<<matA[i][j]<<"\t";  
         }
         hpx::cout<<hpx::endl;
     }
@@ -29,13 +29,13 @@ int hpx_main(int argc, char** argv) {
 
     hpx::parallel::for_loop(hpx::parallel::execution::par, 0, 3, [&](int i) {
         for (int j = 0;  j<3; j++) {  // Iteration upto no of columns in Matrix B
-            int sum = 0; // assigning 0 to save new result every time
+            int sum = 0; 
             for (int k = 0;  k< 2;  k++) {  // Iteration upto no of columns in Matrix A
                 sum += matA[i][k] * matB[k][j];
             }
-            hpx::cout << sum << "\t";  // \t used for tab
+            hpx::cout << sum << "\t"; 
         }
-        hpx::cout << hpx::endl;  // for printing next row in new line
+        hpx::cout << hpx::endl;  
     });
 
     return hpx::finalize();
