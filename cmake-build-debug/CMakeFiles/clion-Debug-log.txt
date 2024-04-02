@@ -1,0 +1,56 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/x64/ninja -G Ninja -S /Users/apple/Desktop/coding/untitled8 -B /Users/apple/Desktop/coding/untitled8/cmake-build-debug
+-- Found Asio: /usr/local/include (found suitable version "1.28.1", minimum required is "1.12.0") 
+-- Using system allocator.
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found Boost: /usr/local/include (found suitable version "1.84.0", minimum required is "1.71")  
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/FindBoost.cmake:1398 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/FindBoost.cmake:1523 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/FindBoost.cmake:2134 (_Boost_MISSING_DEPENDENCIES)
+  /usr/local/lib/cmake/HPX/HPX_SetupBoost.cmake:70 (find_package)
+  /usr/local/lib/cmake/HPX/HPXConfig.cmake:152 (include)
+  CMakeLists.txt:5 (find_package)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/FindBoost.cmake:1398 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/FindBoost.cmake:1523 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/FindBoost.cmake:2134 (_Boost_MISSING_DEPENDENCIES)
+  /usr/local/lib/cmake/HPX/HPX_SetupBoost.cmake:70 (find_package)
+  /usr/local/lib/cmake/HPX/HPXConfig.cmake:152 (include)
+  CMakeLists.txt:5 (find_package)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/FindBoost.cmake:1398 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/FindBoost.cmake:1523 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/FindBoost.cmake:2134 (_Boost_MISSING_DEPENDENCIES)
+  /usr/local/lib/cmake/HPX/HPX_SetupBoost.cmake:70 (find_package)
+  /usr/local/lib/cmake/HPX/HPXConfig.cmake:152 (include)
+  CMakeLists.txt:5 (find_package)
+
+
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/FindBoost.cmake:1398 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/FindBoost.cmake:1523 (_Boost_COMPONENT_DEPENDENCIES)
+  /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.27/Modules/FindBoost.cmake:2134 (_Boost_MISSING_DEPENDENCIES)
+  /usr/local/lib/cmake/HPX/HPX_SetupBoost.cmake:70 (find_package)
+  /usr/local/lib/cmake/HPX/HPXConfig.cmake:152 (include)
+  CMakeLists.txt:5 (find_package)
+
+
+-- Found Boost: /usr/local/include (found suitable version "1.84.0", minimum required is "1.71") found components: context thread chrono atomic 
+-- Found Hwloc: /usr/local/lib/libhwloc.dylib  
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/apple/Desktop/coding/untitled8/cmake-build-debug
